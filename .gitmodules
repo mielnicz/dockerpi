@@ -1,0 +1,3 @@
+[submodule "kernel_integrations/qemu-rpi-kernel"]
+	path = kernel_integrations/qemu-rpi-kernel
+	url = https://github.com/mielnicz/qemu-rpi-kernel.git
