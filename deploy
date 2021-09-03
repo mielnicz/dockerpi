@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+case "$1" in
+
+    buid-vm)
+        vm="$3"
+        echo "Buidling VM: $vm"
+
+    fresh-os)
+        echo "FRESH OS DEPLOY - REMOVE /sdcard volume..."
+    
+    clone2boot)
+        repo="$2"
+        echo "Clone repo to /boot partiton..."
+        
+    run)
+        vm="$1"
+        echo "Run $vm"
+
+esac
