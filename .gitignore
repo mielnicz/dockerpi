@@ -1,2 +1,3 @@
 *.swp
 kernel_integrations/qemu-rpi-kernel/
+.packages_ok
